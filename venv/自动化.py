@@ -9,5 +9,3 @@ if res.status_code == 200:
     print('status_code测试通过')
 else:
     print('status_code测试不通过')
-print(res.status_code)
-print(res.json())
